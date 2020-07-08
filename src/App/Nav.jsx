@@ -3,11 +3,16 @@ import styled from 'styled-components';
 
 const Nav = () => {
     return (
-        <NavStyled>My navigation</NavStyled>
+        <NavStyled>
+            <div className='nested-wrapper'>
+                My navigation
+            </div>
+        </NavStyled>
     );
 }
 export default Nav;
 
 const NavStyled = styled.nav`
     background-color: green;
+    color: white;
     `;
