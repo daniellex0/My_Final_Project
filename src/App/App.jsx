@@ -10,7 +10,6 @@ const App = () => {
 
     return (
         <AppStyled className='App'>
-            My App 
             <Header />
             <Nav />
             <Main />
