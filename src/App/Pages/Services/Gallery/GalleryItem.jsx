@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import Lightbox from './Lightbox.jsx';
+import Lightbox from '../../../../common/Lightbox.jsx';
 
 const GalleryItem = ({item}) => {
 
-const [ showLBox, showLBoxUpdate ] = useState(false);
+    const [ showLBox, showLBoxUpdate ] = useState(false);
 
-const turnOn = () => {
-    showLBoxUpdate(true);
-}
-const turnOff = () => {
-    showLBoxUpdate(false);
-}
+    const turnOn = () => {
+        showLBoxUpdate(true);
+    }
+    const turnOff = () => {
+        showLBoxUpdate(false);
+    }
 
     return (
         <GalleryItemStyled className='GalleryItem'>
@@ -20,7 +20,7 @@ const turnOff = () => {
             <img 
                 src={ item.image } 
                 alt ={ item.title }
-                onClcik={ turnOn } 
+                onClick={ turnOn } 
             />
             <div className="title">{ item.title }</div>
             <Lightbox show= { showLBox } hideAction={ turnOff }>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { mq } from '../../../common/mediaQueries.js';
 
-import Lightbox from '../Services/Gallery/Lightbox.jsx';
+import Lightbox from '../../../common/Lightbox.jsx';
 
 const StaffMember = ({member}) => {
 
