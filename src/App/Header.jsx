@@ -3,20 +3,13 @@ import styled from 'styled-components';
 
 import { mq } from '../common/mediaQueries.js';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-        faHotTub,
-} from '@fortawesome/free-solid-svg-icons';
-
 const Header = () => {
     return (
         <HeaderStyled>
             <div className="nested-wrapper">
                 <div className="row-container">
-                    <div className="logo"><FontAwesomeIcon icon={ faHotTub } /></div>
                     <div className="text">
-                        <h2>Spa Sanctuary</h2>
-                        <h3>A SPA for every occasion</h3>
+                        <h2>The Dandelion</h2>
                     </div>
                 </div>
             </div>

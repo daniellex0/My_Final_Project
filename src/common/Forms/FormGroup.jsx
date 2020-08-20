@@ -23,6 +23,8 @@ const FormGroup = ({formField, onChange}) => {
 export default FormGroup;
 
 const FormGroupStyled = styled.div`
+    margin: 20px 0px;
+
     label {
         font-weight: bold;
     }

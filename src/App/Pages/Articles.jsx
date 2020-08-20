@@ -5,22 +5,22 @@ import Helmet from 'react-helmet';
 /* Components ---------------------------*/
 import ServicesContainer from './Services/ServicesContainer.jsx';
 
-const Services = () => {
+const Articles = () => {
 
     return (
-        <ServicesStyled className='Services'>
+        <ArticlesStyled className='Articles'>
             <Helmet>
-                <title>Services :: SPA App</title>
+                <title>Articles :: The Dandelion</title>
             </Helmet>
             <div className="nested-wrapper">
                 <ServicesContainer />
                 </div> 
-        </ServicesStyled>
+        </ArticlesStyled>
     );
 }
 
-export default Services;
+export default Articles;
 
-const ServicesStyled = styled.div`
+const ArticlesStyled = styled.div`
     
 `;

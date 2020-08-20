@@ -55,10 +55,11 @@ const Nav = () => {
                 {
                     showMenu &&
             <div className='links'>
-                <NavLink to="/" exact>Welcome</NavLink>
-                <NavLink to="/services">Services</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
-                <NavLink to="/login">Login</NavLink>
+                <NavLink to="/" exact>HOME</NavLink>
+                <NavLink to="/articles">ARTICLES</NavLink>
+                <NavLink to="/favorites">FAVORITES</NavLink>
+                <NavLink to="/contact">CONTACT US</NavLink>
+                <NavLink to="/about">ABOUT</NavLink>
                 </div>
                 }
             </div>
@@ -68,7 +69,6 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: teal;
     color: white;
     text-align: center;
 
@@ -97,9 +97,8 @@ const NavStyled = styled.nav`
         display: inline-block;
 
         text-align: center;
-        font-size: 20px;
-        background-color: #105050;
-        color: white;
+        font-size: 16px;
+        color: black;
 
         text-decoration: none;
 

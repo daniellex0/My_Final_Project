@@ -11,13 +11,13 @@ const Home = () => {
     return (
         <HomeStyled className='Home'>
             <Helmet>
-                <title>Home :: SPA App</title>
+                <title>Home :: The Dandelion</title>
             </Helmet>
             <div className="nested-wrapper">
-                <Tabbed />
+                <Staff />
             </div>
             <div className="nested-wrapper">
-                <Staff />
+                <Tabbed />
             </div>
         </HomeStyled>
     );
