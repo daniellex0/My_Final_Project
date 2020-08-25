@@ -68,7 +68,6 @@ const GalleryItemStyled = styled.div`
 
     .Lightbox {
         img {
-            border: solid 20px red;
             max-width: 100%;
         }
         h3 {
