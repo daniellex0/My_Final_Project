@@ -25,15 +25,15 @@ const TabStyled = styled.div`
 
     display: inline-block;
 
-    width: 100px;
+    width: 140px;
     line-height: 50px;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
 
     margin-right: 10px;
 
-    background-color: #116565;
+    background-color: #F4EAF2;
     &.active {
-        background-color: teal;
+        background-color: #F8F7F7;
     }
 `;

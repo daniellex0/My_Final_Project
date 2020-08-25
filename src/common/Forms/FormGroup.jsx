@@ -26,7 +26,7 @@ const FormGroupStyled = styled.div`
     margin: 20px 0px;
 
     label {
-        font-weight: bold;
+        color: #3D65D3;
     }
     .feedback {
         color: red;
@@ -35,9 +35,12 @@ const FormGroupStyled = styled.div`
 
     .Control {
         input, textarea {
-            width: 100%;
+            width: 70%;
             font-size: 18px;
             padding: 5px;
+            border-radius: 10px;
+            background-color: #F8F2FF;
+            border: none;
         }
 
         textarea {

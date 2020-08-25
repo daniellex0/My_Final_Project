@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 /* Components ---------------------------*/
 import Tabbed from './Tabbed/Tabbed.jsx';
-import Staff from './Staff/Staff.jsx';
+import ArticleBlock from './Home/ArticleBlock.jsx';
 
 const Home = () => {
 
@@ -14,7 +14,7 @@ const Home = () => {
                 <title>Home :: The Dandelion</title>
             </Helmet>
             <div className="nested-wrapper">
-                <Staff />
+                <ArticleBlock />
             </div>
             <div className="nested-wrapper">
                 <Tabbed />

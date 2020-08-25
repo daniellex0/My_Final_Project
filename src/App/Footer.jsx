@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <FooterStyled>
             <div className='nested-wrapper'>
-                My Footer
+                <p>The Dandelion © All Rights Reserved</p>
             </div>
         </FooterStyled>
     );
@@ -16,13 +16,18 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    background-color: purple;
+    background-color: #EFFAFC;
+
+p {
+    text-align: center;
+    padding: 15px;
+}
 
 @media ${mq.tablet} {
-    background-color: green;
+    /* background-color: green; */
 }
 @media ${mq.desktop} {
-    background-color: yellow;
+    /* background-color: #EFFAFC; */
 }
 
 `;

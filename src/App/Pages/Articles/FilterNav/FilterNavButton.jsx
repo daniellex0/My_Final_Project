@@ -26,18 +26,18 @@ export default FilterNavButton;
 const FilterNavButtonStyled = styled.div`
     display: inline-block;
     padding: 10px 20px;
-    background-color: #148200;
-    color: white;
+    background-color: #F8E6FF;
+    color: #000000;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 26px;
 
     cursor: pointer;
 
     &:hover {
-        background-color: #3e6f36;
+        background-color: #B8F1F4;
     }
 
     &.active {
-        background-color: maroon;
+        background-color: #CEF7DF;
     }
 `;

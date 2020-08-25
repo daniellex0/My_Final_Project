@@ -1,34 +1,42 @@
 export const staffData = [
     {
-        image: '/assets/img/Staff/staff-1.jpeg',
-        name: 'George',
+        image: '/assets/img/ArticleImages/Alps.png',
+        title: 'Life in the Alps',
+        description: 'Lorem ipsum lorem ipsum loren ipsum',
     },
     {
-        image: '/assets/img/Staff/staff-2.jpeg',
-        name: 'Sherry',
+        image: '/assets/img/ArticleImages/Coffee.png',
+        title: 'How Coffee Affects Our Minds',
+        description: 'Lorem ipsum lorem ipsum loren ipsum',
     },
     {
-        image: '/assets/img/Staff/staff-3.jpeg',
-        name: 'Laura',
+        image: '/assets/img/ArticleImages/images.jpeg',
+        title: 'Reading Stories to Children',
+        description: 'Lorem ipsum lorem ipsum loren ipsum',
     },
-    {
-        image: '/assets/img/Staff/staff-4.jpeg',
-        name: 'Jan',
-    },
-    {
-        image: '/assets/img/Staff/staff-5.jpeg',
-        name: 'Susan',
-    },
-    {
-        image: '/assets/img/Staff/staff-6.jpeg',
-        name: 'Claire',
-    },
-    {
-        image: '/assets/img/Staff/staff-7.jpeg',
-        name: 'Steph',
-    },
-    {
-        image: '/assets/img/Staff/staff-8.jpeg',
-        name: 'Tracy',
-    },
+    // {
+    //     image: '/assets/img/ArticleImages/Party.png',
+    //     title: 'Partying After the Times of Coronavirus',
+    //     description: 'Lorem ipsum lorem ipsum loren ipsum',
+    // },
+    // {
+    //     image: '/assets/img/ArticleImages/Poppies.png',
+    //     title: 'Step Out and Smell the Flowers',
+    //     description: 'Lorem ipsum lorem ipsum loren ipsum',
+    // },
+    // {
+    //     image: '/assets/img/ArticleImages/curtains.png',
+    //     title: 'Hanging Out with Best Friends',
+    //     description: 'Lorem ipsum lorem ipsum loren ipsum',
+    // },
+    // {
+    //     image: '/assets/img/ArticleImages/ItalianRiviera.png',
+    //     title: 'Italian Vacations',
+    //     description: 'Lorem ipsum lorem ipsum loren ipsum',
+    // },
+    // {
+    //     image: '/assets/img/ArticleImages/Coffee.png',
+    //     title: 'Drinking with Friends',
+    //     description: 'Lorem ipsum lorem ipsum loren ipsum',
+    // },
 ];

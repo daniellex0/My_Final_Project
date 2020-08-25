@@ -4,10 +4,10 @@ import styled from 'styled-components';
 /* Components ---------------------------*/
 import GalleryItem from './GalleryItem.jsx';
 
-const Gallery = ({ services, currCategory}) => {
+const Gallery = ({ stories, currCategory}) => {
 
     const renderGallery = () => {
-        return services.packages
+        return stories.packages
         .filter((item, idx) => {
             return (currCategory === 'All' || item.category === currCategory);
         })

@@ -4,12 +4,12 @@ import styled from 'styled-components';
 /* Components ---------------------------*/
 import FilterNavButton from './FilterNavButton.jsx';
 
-const FilterNav = ({ services, currCategory, currCategorySet }) => {
+const FilterNav = ({ stories, currCategory, currCategorySet }) => {
 
-    console.log('FilterNav: ', services, currCategory);
+    console.log('FilterNav: ', stories, currCategory);
 
     const renderButtons = () => {
-        return services.categories.map((name, idx) => {
+        return stories.categories.map((name, idx) => {
             return <FilterNavButton 
                 key={idx} 
                 name={ name }

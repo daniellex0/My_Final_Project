@@ -21,13 +21,14 @@ const StaffMember = ({member}) => {
         <StaffMemberStyled className='StaffMember'>
             <img 
                 src={ member.image } 
-                alt={ member.name }
+                alt={ member.title }
                 onClick={ turnOn } 
             />
-            <div className="title">{ member.name }</div>
+            <div className="title">{ member.title }</div>
+            <div className="description">{ member.description }</div>
             <Lightbox show= {showLBox } hideAction={ turnOff }>
-            <img src={ member.image } alt={ member.name } />
-            <h3>{ member.name }</h3>
+            <img src={ member.image } alt={ member.title } />
+            <h3>{ member.title }</h3>
             </Lightbox>
         </StaffMemberStyled>
     );
@@ -45,7 +46,7 @@ const StaffMemberStyled = styled.div`
         width: 130px;
     }
     @media ${mq.desktop} {
-        width: 200px;
+        width: 250px;
     }
 
     img {
@@ -54,8 +55,16 @@ const StaffMemberStyled = styled.div`
     }
 
     .title {
-        background-color: maroon;
-        color: white;
+        background-color: #FCF6ED;
+        color: #000000;
+        padding: 5px;
+        font-family: 'Abril Fatface', cursive;
+
+    }
+
+    .description {
+        background-color: #FCF6ED;
+        color: #404040;
         padding: 5px;
     }
 `;

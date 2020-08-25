@@ -80,7 +80,7 @@ const NavStyled = styled.nav`
         cursor: pointer;
 
         svg {
-            color: red;
+            color: #5d36f5;
             width: 40px;
             height: auto;
         }
@@ -102,8 +102,6 @@ const NavStyled = styled.nav`
 
         text-decoration: none;
 
-        border-radius: 5px;
-
         margin-bottom: 10px;
 
         width: 100%;
@@ -117,14 +115,16 @@ const NavStyled = styled.nav`
             margin-bottom: 0px;
         }
         @media ${mq.desktop} {
-            width: 150px;
+            width: 115px;
         }
 
         &:hover {
-            background-color: #103534;
+            border-bottom: 3px solid;
+            border-bottom-color: #EF42EF;
         }
         &.active {
-            background-color: pink;
+            border-bottom: 3px solid;
+            border-bottom-color: #42E8EF
         }
     }
 

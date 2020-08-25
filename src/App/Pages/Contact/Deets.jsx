@@ -5,7 +5,10 @@ const Deets = () => {
 
     return (
         <DeetsStyled className='Deets'>
-            Deets 
+            <div className="contactintro">
+                <h3>Contact Us</h3> 
+                <p>Reach out with any tips, media inquiries, or just to say hi!</p>
+            </div>
         </DeetsStyled>
     );
 }
@@ -13,5 +16,9 @@ const Deets = () => {
 export default Deets;
 
 const DeetsStyled = styled.div`
-    
+    .contactintro {
+        max-width: 250px;
+        margin-left: 40px;
+    }
+
 `;

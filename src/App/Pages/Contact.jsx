@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 /* Components ---------------------------*/
 import Deets from './Contact/Deets.jsx';
 import ContactForm from './Contact/ContactForm.jsx';
-import GoogleMap from './Contact/GoogleMap.jsx';
 
 const Contact = () => {
 
@@ -22,7 +21,6 @@ const Contact = () => {
                     <ContactForm />
                 </div>
             </div> 
-                <GoogleMap />
         </ContactStyled>
     );
 }
@@ -39,11 +37,9 @@ const ContactStyled = styled.div`
 
         .column1 {
             width: 35%;
-            background-color: yellow;   
         }
         .column2 {
             width: 65%;
-            background-color: pink;
         }
     }
 `;

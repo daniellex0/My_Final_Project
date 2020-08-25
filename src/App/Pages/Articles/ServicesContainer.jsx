@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import styled from 'styled-components';
 
 /* Scripts ---------------------------*/
-import { services } from './servicesData.js';
+import { stories } from './storiesData.js';
 
 /* Components ---------------------------*/
 import FilterNav from './FilterNav/FilterNav.jsx';
@@ -10,18 +10,18 @@ import Gallery from './Gallery/Gallery.jsx';
 
 const ServicesContainer = () => {
 
-    const [currCategory, currCategorySet ] = useState(services.categories[0]);
+    const [currCategory, currCategorySet ] = useState(stories.categories[0]);
 
     console.log('currCategory', currCategory);
 
     return (
         <ServicesContainerStyled className='ServicesContainer'>
             <FilterNav 
-                services={ services } 
+                stories={ stories } 
                 currCategory={ currCategory }
                 currCategorySet={ currCategorySet }
             />
-            <Gallery services={ services } currCategory={ currCategory }/>
+            <Gallery stories={ stories } currCategory={ currCategory }/>
         </ServicesContainerStyled>
     );
 }

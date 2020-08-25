@@ -20,13 +20,13 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: teal;
+    /* background-color: teal*/
 
     @media ${mq.tablet} {
-        background-color: orange;
+        /* background-color: orange*/
     }
     @media ${mq.desktop} {
-        background-color: purple;
+        /* background-color: purple*/
     }
 
     font-size: 30px;
@@ -37,9 +37,9 @@ const HeaderStyled = styled.header`
     }
 
     .logo {
-        outline: solid 1px red;
+        /* outline: solid 1px red;
         color: #15b1b0;
-        margin-right: 10px;
+        margin-right: 10px;*/
 
         svg {
             width: 100px;
@@ -48,13 +48,27 @@ const HeaderStyled = styled.header`
     }
 
     .text {
-        outline: solid 1px purple;
+        /*outline: solid 1px purple;*/
 
         h2 {
-            font-size: 40px;
+            font-size: 45px;
             margin: 0px;
-            color: #034d4d;
+            color: #404040;
+            display: grid;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            grid-template-columns: minmax(300px, 1fr) auto minmax(300px, 1fr);
+            grid-gap: 20px;
         }
+
+        h2:before,
+        h2:after {
+            content: '';
+            border-top: .5px solid;
+            color: #404040;
+        }
+
         h3 {
             font-size: 30px;
             margin: 0px;

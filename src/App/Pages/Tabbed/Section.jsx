@@ -22,7 +22,7 @@ const Section = ({chosenTab}) => {
 export default Section;
 
 const SectionStyled = styled.div`
-    background-color: teal;
+    background-color: #F8F7F7;
     padding: 20px;
 
     @media ${mq.tablet} {

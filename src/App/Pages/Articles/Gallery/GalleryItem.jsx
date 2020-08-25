@@ -40,10 +40,14 @@ export default GalleryItem;
 const GalleryItemStyled = styled.div`
     position: relative;
 
-    border: solid 1px purple;
+    /* border: solid 1px purple; */
 
     margin: 20px;
-    img { display: block; }
+    img { 
+        display: block; 
+        width: 200px;
+        height: auto;
+    }
 
     .category {
         position: absolute;
@@ -55,10 +59,25 @@ const GalleryItemStyled = styled.div`
         text-align: right;
     }
     .title {
-        position: absolute;
-        bottom: 0; right: 0; left: 0;
-        background-color: rgba(255,255,255, .5);
-        padding: 10px;
-        font-size: 20px;
+        background-color: #FCF6ED;
+        color: #000000;
+        padding: 5px;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: 500px;
+    }
+
+    .Lightbox {
+        img {
+            border: solid 20px red;
+            max-width: 100%;
+        }
+        h3 {
+            font-size: 30px;
+            margin: 0px;
+        }
+        .description {
+            color: #333;
+            background-color: gray;
+        }
     }
 `;

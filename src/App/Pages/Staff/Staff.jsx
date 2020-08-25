@@ -16,8 +16,7 @@ const Staff = () => {
     }
 
     return (
-        <StaffStyled className='Staff'>
-            Staff 
+        <StaffStyled className='Staff'> 
             <div className='members'>
                 { renderMembers() }
             </div>
@@ -28,11 +27,9 @@ const Staff = () => {
 export default Staff;
 
 const StaffStyled = styled.div`
-    background-color: teal;
 
     .members {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
     
